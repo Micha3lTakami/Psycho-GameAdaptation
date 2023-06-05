@@ -1,6 +1,6 @@
 class Marion extends Phaser.Physics.Arcade.Sprite {
     constructor(scene, x, y, textureUP, textureDOWN, textureLEFT, textureRIGHT) {
-      super(scene, x, y, texture);
+      super(scene, x, y, textureUP, textureDOWN, textureLEFT, textureRIGHT);
   
       // Add the sprite to the scene and enable physics
       scene.add.existing(this);
@@ -35,31 +35,35 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
         repeat: -1
       });
 
+      this.cursors = scene.input.keyboard.addKeys('W,A,S,D');
+
     }
   
-    update(cursors) {
+    update() {
       // Reset velocity before handling input
       this.setVelocity(0);
   
       // Handle movement based on input
-      if (cursors.up.isDown) {
+      if (this.cursors.W.isDown) {
         this.setVelocityY(-100);
         this.anims.play('up', true);
-      } else if (cursors.down.isDown) {
+      } 
+      else if (this.cursors.S.isDown) {
         this.setVelocityY(100);
         this.anims.play('down', true);
       }
   
-      if (cursors.left.isDown) {
+      if (this.cursors.A.isDown) {
         this.setVelocityX(-100);
         this.anims.play('left', true);
-      } else if (cursors.right.isDown) {
+      } 
+      else if (this.cursors.D.isDown) {
         this.setVelocityX(100);
         this.anims.play('right', true);
       }
   
       // Idle animation if no movement keys are pressed
-      if (!cursors.up.isDown && !cursors.down.isDown && !cursors.left.isDown && !cursors.right.isDown) {
+      if (!this.cursors.W.isDown && !this.cursors.S.isDown && !this.cursors.A.isDown && !this.cursors.D.isDown) {
         this.anims.stop();
       }
     }

@@ -7,8 +7,8 @@ class Intro extends Phaser.Scene {
     // create play scene
     create() {
         const map = this.add.tilemap('tilemapJSON');
-        const intro_set = map.addTilesetImage('intro_set', 'tilesetImage');
-
+        const intro_set = map.addTilesetImage('Modern_Exteriors_Complete_Tileset', 'tilesetImage');
+        
         const baseLayer = map.createLayer('base', intro_set, 0, 0);
         const buildingLayer = map.createLayer('buildings', intro_set, 0, 0);
         const carLayer = map.createLayer('car', intro_set, 0, 0);
@@ -19,7 +19,7 @@ class Intro extends Phaser.Scene {
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({collides:true})
         carLayer.setCollisionByProperty({collides:true})
-        this.physics.add.collider(this.mainChar, terrainLayer)
+        this.physics.add.collider(this.mainChar, buildingLayer)
         this.physics.add.collider(this.mainChar, carLayer)
 
         // cameras

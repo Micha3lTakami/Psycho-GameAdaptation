@@ -31,12 +31,14 @@ class Menu extends Phaser.Scene{
         const directionStyle = { fontFamily: 'Courier', fontSize: '16px', color: '#f29057' };
         const directions = this.add.text(w*.1, h*.5, 'Use [W,A,S,D] to move', directionStyle);
         const directions2 = this.add.text(w*.1, h*.6,'[SPACE] to interact', directionStyle);
-
+        // define keys
+        keyENTER = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.ENTER);
     }
 
     // update()
     // menu update function
     update() {
+        //console.log("made it");
         if (Phaser.Input.Keyboard.JustDown(keyENTER)) {
             console.log("made it")
             this.cameras.main.fadeOut(1000,10,20,30,);

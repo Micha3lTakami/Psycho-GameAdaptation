@@ -138,7 +138,7 @@
                 {
                  "height":0,
                  "id":1,
-                 "name":"",
+                 "name":"marion_spawn",
                  "point":true,
                  "properties":[
                         {
@@ -150,8 +150,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":166.79188580015,
-                 "y":464.312546957175
+                 "x":166.792,
+                 "y":464.313
                 }],
          "opacity":1,
          "type":"objectgroup",
