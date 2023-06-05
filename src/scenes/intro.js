@@ -17,8 +17,8 @@ class Intro extends Phaser.Scene {
         this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
 
         // enable collision based on the property created in Tiled
-        buildingLayer.setCollisionByProperty({collides:true})
-        carLayer.setCollisionByProperty({collides:true})
+        buildingLayer.setCollisionByProperty({no_walk:true})
+        carLayer.setCollisionByProperty({no_walk:true})
         this.physics.add.collider(this.mainChar, buildingLayer)
         this.physics.add.collider(this.mainChar, carLayer)
 
