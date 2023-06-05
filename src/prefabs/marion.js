@@ -34,9 +34,7 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
         frameRate: 10,
         repeat: -1
       });
-      //colors light- #1abef8 dark - #18acc0
-      // Set the default animation
-      //this.anims.play('down');
+
     }
   
     update(cursors) {
