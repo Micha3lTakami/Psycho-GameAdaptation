@@ -118,7 +118,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="spawn">
-  <object id="1" x="166.792" y="464.313">
+  <object id="1" name="marion_spawn" x="166.792" y="464.313">
    <properties>
     <property name="marion_spawn" type="bool" value="true"/>
    </properties>

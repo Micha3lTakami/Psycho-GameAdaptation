@@ -54,10 +54,10 @@ class Loader extends Phaser.Scene {
         // load spritesheet file path
         this.load.path = "./assets/spritesheets/"
         // load spritesheets 
-        this.load.spritesheet('MarionRight', 'Marion-RIGHT.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 3});
-        this.load.spritesheet('MarionLeft', 'Marion-LEFT.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 3});
-        this.load.spritesheet('MarionUp', 'Marion-UP.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 3});
-        this.load.spritesheet('MarionDown', 'Marion-DOWN.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 3});
+        this.load.spritesheet('MarionRight', 'Marion-RIGHT.png', {frameWidth: 11, frameHeight: 17, startFrame: 0, endFrame: 3});
+        this.load.spritesheet('MarionLeft', 'Marion-LEFT.png', {frameWidth: 11, frameHeight: 17, startFrame: 0, endFrame: 3});
+        this.load.spritesheet('MarionUp', 'Marion-UP.png', {frameWidth: 12, frameHeight: 17, startFrame: 0, endFrame: 3});
+        this.load.spritesheet('MarionDown', 'Marion-DOWN.png', {frameWidth: 12, frameHeight: 17, startFrame: 0, endFrame: 3});
 
         
         
