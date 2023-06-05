@@ -34,7 +34,7 @@ class Menu extends Phaser.Scene{
     // menu update function
     update() {
         if (Phaser.Input.Keyboard.JustDown(keyENTER)) {
-            //this.sound.play('select');
+            console.log("made it")
             this.cameras.main.fadeOut(1000,10,20,30,);
             this.time.delayedCall(1100, () =>{
                 // restyle border for next scene

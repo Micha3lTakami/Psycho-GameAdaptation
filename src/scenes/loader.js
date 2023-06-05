@@ -29,8 +29,8 @@ class Loader extends Phaser.Scene {
         });
         
         //add tile info
-        //this.load.tilemapTiledJSON('tilemapJSON', './assets/tilemap_items/psycho_tilemaps.json');
-
+        this.load.tilemapTiledJSON('tilemapJSON', './assets/tilemap/intro.json');
+        this.load.image('tilesetImage', './assets/tilemap/Modern_Exteriors_Complete_Tileset.png');
         //this.load.font('HitchFont', './assets/fonts/Hitchcock.ttf');
 
         // load audio file path
@@ -43,6 +43,7 @@ class Loader extends Phaser.Scene {
         this.load.path = "./assets/images/"
         // load images
         this.load.image('menu','bates.png');
+        
 
 
 
