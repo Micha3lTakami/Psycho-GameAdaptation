@@ -188,6 +188,18 @@
                  "width":0,
                  "x":419.565217391304,
                  "y":373.913043478261
+                }, 
+                {
+                 "height":0,
+                 "id":10,
+                 "name":"car_interact",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":828.260869565217,
+                 "y":547.826086956522
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -263,7 +275,7 @@
          "y":0
         }],
  "nextlayerid":5,
- "nextobjectid":10,
+ "nextobjectid":11,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",

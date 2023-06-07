@@ -8,10 +8,11 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
       
       //set-up sound
       this.walkLeftSound = scene.sound.add('stepLeft', {loop: true});
-      //this.walkLeftSound.setRate(1.5);
+      this.walkLeftSound.setRate(1.5);
       
       this.walkRightSound = scene.sound.add('stepRight', {loop : true});
-      //this.walkRightSound.setRate(1.5);
+      this.walkRightSound.setRate(1.5);
+      
       // Set up animations
       this.anims.create({
         key: 'up',
@@ -44,8 +45,17 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
       this.cursors = scene.input.keyboard.addKeys('W,A,S,D');
       this.isWalkingLU = false;
       this.isWalkingRD = false;
+      //this.inventory = string({});
     }
-  
+    
+    interact(script){
+        this.talk(script);
+    }
+
+    addItem(item){
+      this.inventory.add(item);
+    }
+
     update() {
       // Reset velocity before handling input
       this.setVelocity(0);
