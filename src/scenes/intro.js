@@ -7,11 +7,13 @@ class Intro extends Phaser.Scene {
     // create play scene
     create() {
         
+        // B&W STUFF
+        /*
         // Create the desaturate pipeline
         const pipeline = this.game.renderer.addPipeline('Desaturate', new DesaturatePipeline(this.game));
 
         // Apply the pipeline to the entire scene
-        this.cameras.main.setRenderToTexture(pipeline);
+        this.cameras.main.setRenderToTexture(pipeline);*/
 
         const map = this.add.tilemap('tilemapJSON');
         const intro_set = map.addTilesetImage('Modern_Exteriors_Complete_Tileset', 'tilesetImage');
