@@ -6,7 +6,7 @@ class Menu extends Phaser.Scene{
     // create start scene
     create() {
         this.gameMusic = this.sound.add('theme', { loop: true });
-        this.gameMusic.play();
+        this.gameMusic.play({ seek: 5 });
         this.gameMusic.setVolume(0.5);
         this.gameMusic.setRate(0.6);
         
@@ -16,7 +16,7 @@ class Menu extends Phaser.Scene{
 
         // tweened logo
         const logoStyle = { fontFamily: 'Impact', fontSize: '48px', color: '#732002' };
-        const logo = this.add.text(w*.1, h*.15, 'Psycho', logoStyle);
+        const logo = this.add.text(w*.1, h*.15, 'Psycho TEMP MENU', logoStyle);
         this.tweens.add({
           targets: logo,
           scaleY: { value: 1.05, yoyo: true, duration: 1000, ease: 'Sine.easeIn' },
@@ -41,6 +41,7 @@ class Menu extends Phaser.Scene{
         //console.log("made it");
         if (Phaser.Input.Keyboard.JustDown(keyENTER)) {
             console.log("made it")
+            this.sound.play('knifeSelect');
             this.cameras.main.fadeOut(1000,10,20,30,);
             this.gameMusic.stop();
             this.time.delayedCall(1100, () =>{

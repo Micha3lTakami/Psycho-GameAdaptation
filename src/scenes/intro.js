@@ -6,6 +6,13 @@ class Intro extends Phaser.Scene {
     // create()
     // create play scene
     create() {
+        
+        // Create the desaturate pipeline
+        const pipeline = this.game.renderer.addPipeline('Desaturate', new DesaturatePipeline(this.game));
+
+        // Apply the pipeline to the entire scene
+        this.cameras.main.setRenderToTexture(pipeline);
+
         const map = this.add.tilemap('tilemapJSON');
         const intro_set = map.addTilesetImage('Modern_Exteriors_Complete_Tileset', 'tilesetImage');
         
@@ -13,12 +20,20 @@ class Intro extends Phaser.Scene {
         const buildingLayer = map.createLayer('buildings', intro_set, 0, 0);
         const carLayer = map.createLayer('car', intro_set, 0, 0);
 
-        const marionSpawn = map.findObject('spawn', obj => obj.name === 'marion_spawn')
+        const marionSpawn = map.findObject('spawn', obj => obj.name === 'marion_spawn');
+        const buildEntrance = map.findObject('spawn', obj => obj.name === 'building_entrance');
+        const buildEntrance1 = map.findObject('spawn', obj => obj.name === 'building_entrance1');
+        const buildEntrance2 = map.findObject('spawn', obj => obj.name === 'building_entrance2');
         this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
-
+        this.factoryDoor = new Door(this, buildEntrance.x, buildEntrance.y,  'menuScene');
+        this.redBuilding = new Door(this, buildEntrance1.x, buildEntrance1.y, 'menuScene');
+        this.marketBuilding = new Door(this, buildEntrance2.x, buildEntrance2.y, 'menuScene');
+        
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({no_walk:true})
         carLayer.setCollisionByProperty({no_walk:true})
+
+  
         this.physics.add.collider(this.mainChar, buildingLayer)
         this.physics.add.collider(this.mainChar, carLayer)
 

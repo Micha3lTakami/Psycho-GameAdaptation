@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="2">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="4">
  <editorsettings>
   <export target="../tilemap/intro.json" format="json"/>
  </editorsettings>
@@ -2577,6 +2577,9 @@
    <properties>
     <property name="marion_spawn" type="bool" value="true"/>
    </properties>
+   <point/>
+  </object>
+  <object id="3" name="building_entrance" x="917.391" y="389.13">
    <point/>
   </object>
  </objectgroup>

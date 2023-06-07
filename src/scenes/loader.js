@@ -39,6 +39,7 @@ class Loader extends Phaser.Scene {
         this.load.audio('theme', 'psychoTheme.mp3');
         this.load.audio('stepLeft', 'stepLeft.mp3');
         this.load.audio('stepRight', 'stepRight.mp3');
+        this.load.audio('knifeSelect', 'knifeSelect.mp3');
   
 
 

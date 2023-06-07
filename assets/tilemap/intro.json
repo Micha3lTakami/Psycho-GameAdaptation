@@ -152,6 +152,42 @@
                  "width":0,
                  "x":166.792,
                  "y":464.313
+                }, 
+                {
+                 "height":0,
+                 "id":3,
+                 "name":"building_entrance",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":917.391304347826,
+                 "y":371.739130434783
+                }, 
+                {
+                 "height":0,
+                 "id":6,
+                 "name":"building_entrance1",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":669.565217391304,
+                 "y":367.391304347826
+                }, 
+                {
+                 "height":0,
+                 "id":8,
+                 "name":"building_entrance2",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":419.565217391304,
+                 "y":373.913043478261
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -227,7 +263,7 @@
          "y":0
         }],
  "nextlayerid":5,
- "nextobjectid":2,
+ "nextobjectid":10,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
