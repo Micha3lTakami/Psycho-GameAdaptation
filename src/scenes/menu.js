@@ -5,10 +5,10 @@ class Menu extends Phaser.Scene{
     // create()
     // create start scene
     create() {
-        let gameMusic = this.sound.add('theme', { loop: true });
-        gameMusic.play();
-        gameMusic.setVolume(0.5);
-        gameMusic.setRate(0.6);
+        this.gameMusic = this.sound.add('theme', { loop: true });
+        this.gameMusic.play();
+        this.gameMusic.setVolume(0.5);
+        this.gameMusic.setRate(0.6);
         
         // 8-bit background
         let batesBCKG = this.add.image(w/3, h/2, 'menu');
@@ -42,6 +42,7 @@ class Menu extends Phaser.Scene{
         if (Phaser.Input.Keyboard.JustDown(keyENTER)) {
             console.log("made it")
             this.cameras.main.fadeOut(1000,10,20,30,);
+            this.gameMusic.stop();
             this.time.delayedCall(1100, () =>{
                 // restyle border for next scene
                 let canvas = document.querySelector('canvas');
