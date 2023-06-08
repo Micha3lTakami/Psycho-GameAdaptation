@@ -26,6 +26,7 @@ class Intro extends Phaser.Scene {
         const buildEntrance = map.findObject('spawn', obj => obj.name === 'building_entrance');
         const buildEntrance1 = map.findObject('spawn', obj => obj.name === 'building_entrance1');
         const buildEntrance2 = map.findObject('spawn', obj => obj.name === 'building_entrance2');
+        
         this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
         this.factoryDoor = new Door(this, buildEntrance.x, buildEntrance.y,  'menuScene');
         this.redBuilding = new Door(this, buildEntrance1.x, buildEntrance1.y, 'menuScene');

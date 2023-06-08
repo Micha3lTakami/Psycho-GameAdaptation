@@ -45,6 +45,7 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
       this.cursors = scene.input.keyboard.addKeys('W,A,S,D');
       this.isWalkingLU = false;
       this.isWalkingRD = false;
+      this.isWalking = false;
       //this.inventory = string({});
     }
     
@@ -64,53 +65,52 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
       if (this.cursors.W.isDown) {
         this.setVelocityY(-100);
         this.anims.play('up', true);
-          if(!this.isWalkingLU){
-            this.walkLeftSound.play();
-            this.walkRightSound.stop();
-            this.isWalkingLU = true;
-            this.isWalkingRU = false;
-          }
+        this.isWalkingLU = true;
+
       } 
       else if (this.cursors.S.isDown) {
         this.setVelocityY(100);
         this.anims.play('down', true);
-        if(!this.isWalkingRD){
-          this.walkRightSound.play();
-          this.walkLeftSound.stop();
-          this.isWalkingRD = true;
-          this.isWalkingLU = false;
-        }
+        this.isWalkingRD = true;
+
       }
   
       if (this.cursors.A.isDown) {
         this.setVelocityX(-100);
         this.anims.play('left', true);
-        if(!this.isWalkingLU){
-          this.walkLeftSound.play();
-          this.walkRightSound.stop();
-          this.isWalkingLU = true;
-          this.isWalkingRU = false;
-        }
+        this.isWalkingLU = true;
       } 
       else if (this.cursors.D.isDown) {
         this.setVelocityX(100);
         this.anims.play('right', true);
-        if(!this.isWalkingRD){
+        this.isWalkingRD = true;
+
+      }
+      // Check if walking sound is already playing before starting it again
+      if (this.isWalkingLU) {
+        if (!this.isWalking) {
+          this.walkLeftSound.play();
+          this.walkRightSound.stop();
+          this.isWalking = true;
+        }
+        this.isWalkingRD = false;
+      } else if (this.isWalkingRD) {
+        if (!this.isWalking) {
           this.walkRightSound.play();
           this.walkLeftSound.stop();
-          this.isWalkingRD = true;
-          this.isWalkingLU = false;
+          this.isWalking = true;
         }
+        this.isWalkingLU = false;
       }
 
       // Idle animation if no movement keys are pressed
       if (!this.cursors.W.isDown && !this.cursors.S.isDown && !this.cursors.A.isDown && !this.cursors.D.isDown) {
-
-        this.isWalkingLeft = false;
-        this.isWalkingRight = false;
-        this.anims.stop();
-        this.walkLeftSound.stop();
-        this.walkRightSound.stop();
+        // Stop walking sound if playing
+        if (this.isWalking) {
+          this.walkLeftSound.stop();
+          this.walkRightSound.stop();
+          this.isWalking = false;
+        }
       }
-    }
   }
+}
