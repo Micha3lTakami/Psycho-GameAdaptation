@@ -44,7 +44,7 @@ class Menu extends Phaser.Scene{
             this.sound.play('knifeSelect');
             this.cameras.main.fadeOut(1000,10,20,30,);
             this.gameMusic.stop();
-            this.time.delayedCall(1100, () =>{
+            this.time.delayedCall(1200, () =>{
                 // restyle border for next scene
                 let canvas = document.querySelector('canvas');
                 canvas.style.border = '10px #ADD8E6 inset';   

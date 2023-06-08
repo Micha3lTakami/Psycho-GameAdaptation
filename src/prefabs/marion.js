@@ -105,6 +105,7 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
 
       // Idle animation if no movement keys are pressed
       if (!this.cursors.W.isDown && !this.cursors.S.isDown && !this.cursors.A.isDown && !this.cursors.D.isDown) {
+        this.anims.stop();
         // Stop walking sound if playing
         if (this.isWalking) {
           this.walkLeftSound.stop();
