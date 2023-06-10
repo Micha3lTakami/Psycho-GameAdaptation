@@ -31,7 +31,13 @@ class Loader extends Phaser.Scene {
         //add tile info
         this.load.tilemapTiledJSON('tilemapJSON', './assets/tilemap/intro.json');
         this.load.image('tilesetImage', './assets/tilemap/Modern_Exteriors_Complete_Tileset.png');
+        this.load.image('tilesetImage2', './assets/tilemap/interior.png')
         //this.load.font('HitchFont', './assets/fonts/Hitchcock.ttf');
+
+        // teletext stuff
+        this.load.path = './assets/teletext/';
+        this.load.json('dialog', 'dialog.json');
+        this.load.bitmapFont('gem_font', 'gem.png', 'gem.xml');
 
         // load audio file path
         this.load.path  = './assets/sounds/'
@@ -47,6 +53,7 @@ class Loader extends Phaser.Scene {
         this.load.path = "./assets/images/"
         // load images
         this.load.image('menu','bates.png');
+        this.load.image('dialogBox', 'dialogbox.png');
         
 
 

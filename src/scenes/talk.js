@@ -38,7 +38,7 @@ class Talking extends Phaser.Scene {
     create() {
         // parse dialog from JSON file
         this.dialog = this.cache.json.get('dialog');
-        //console.log(this.dialog);
+        console.log(this.dialog);
 
         // add dialog box sprite
         this.dialogbox = this.add.sprite(this.DBOX_X, this.DBOX_Y, 'dialogbox').setOrigin(0);

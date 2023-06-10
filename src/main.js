@@ -28,7 +28,7 @@ let config = {
         }
     },
     zoom: 2,
-    scene: [ Loader, Start, Menu, Intro ]
+    scene: [ Loader, Start, Menu, Intro, Talking ]
 }
 
 // define game
@@ -36,6 +36,7 @@ let game = new Phaser.Game(config);
 
 // reserve keyboard variables
 let keyUP, keyLEFT, keyRIGHT, keyENTER, keyR;
+let cursors = null;
 
 // define globals
 let centerX = game.config.width/2;
