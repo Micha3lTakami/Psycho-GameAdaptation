@@ -75,7 +75,7 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
 
       }
   
-      if (this.cursors.A.isDown) {
+      else if (this.cursors.A.isDown) {
         this.setVelocityX(-100);
         this.anims.play('left', true);
         this.isWalkingLU = true;

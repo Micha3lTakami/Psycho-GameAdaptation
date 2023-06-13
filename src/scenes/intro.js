@@ -14,6 +14,19 @@ class Intro extends Phaser.Scene {
 
         // Apply the pipeline to the entire scene
         this.cameras.main.setRenderToTexture(pipeline);*/
+        
+        // Create intro music
+        this.gameMusic = this.sound.add('introMusic', { loop: true });
+        this.gameMusic.play();
+        this.gameMusic.setVolume(0); // Set initial volume to 0
+
+        // tween for game music fade in
+        this.tweens.add({
+        targets: this.gameMusic,
+        volume: 0.4,
+        duration: 2000,
+        ease: 'Linear',
+        });
 
         const map = this.add.tilemap('tilemapJSON');
         const intro_set = map.addTilesetImage('Modern_Exteriors_Complete_Tileset', 'tilesetImage');
@@ -24,13 +37,10 @@ class Intro extends Phaser.Scene {
 
         const marionSpawn = map.findObject('spawn', obj => obj.name === 'marion_spawn');
         const buildEntrance = map.findObject('spawn', obj => obj.name === 'building_entrance');
-        const buildEntrance1 = map.findObject('spawn', obj => obj.name === 'building_entrance1');
-        const buildEntrance2 = map.findObject('spawn', obj => obj.name === 'building_entrance2');
+
         
         this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
-        this.factoryDoor = new Door(this, buildEntrance.x, buildEntrance.y,  'menuScene');
-        this.redBuilding = new Door(this, buildEntrance1.x, buildEntrance1.y, 'menuScene');
-        this.marketBuilding = new Door(this, buildEntrance2.x, buildEntrance2.y, 'menuScene');
+        this.officeDoor = new Door(this, buildEntrance.x, buildEntrance.y, 'door', 'menuScene');
         
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({no_walk:true})

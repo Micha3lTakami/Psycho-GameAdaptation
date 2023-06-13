@@ -240,6 +240,30 @@
                  "width":0,
                  "x":1088.4733463578,
                  "y":978.230533072844
+                }, 
+                {
+                 "height":0,
+                 "id":2,
+                 "name":"motel_door",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1166.62015071169,
+                 "y":756.349427853754
+                }, 
+                {
+                 "height":0,
+                 "id":3,
+                 "name":"house_door",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":71.16941110801,
+                 "y":269.327379291097
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -248,7 +272,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":2,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",

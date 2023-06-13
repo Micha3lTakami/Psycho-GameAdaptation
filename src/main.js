@@ -28,7 +28,7 @@ let config = {
         }
     },
     zoom: 2,
-    scene: [ Loader, Start, Menu, Intro, Talking ]
+    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom ]
 }
 
 // define game

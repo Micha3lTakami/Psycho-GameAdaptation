@@ -79,6 +79,7 @@ class Loader extends Phaser.Scene {
         this.load.spritesheet('NormanWalk', 'NormanWalk.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 15});
         this.load.spritesheet('NormanIdle', 'NormanIdle.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 5});
         this.load.spritesheet('NormanAttack', 'NormanAttack.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 11});
+        this.load.image('door', 'door.png');
 
         
         

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="4">
+ <editorsettings>
+  <export target="bates_exterior.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="Modern_Exteriors_Complete_Tileset" tilewidth="16" tileheight="16" tilecount="41712" columns="176">
   <image source="Modern_Exteriors_Complete_Tileset.png" trans="000000" width="2816" height="3792"/>
  </tileset>
@@ -213,6 +216,12 @@
  </layer>
  <objectgroup id="3" name="spawn">
   <object id="1" name="marion_spawn" x="1088.47" y="978.231">
+   <point/>
+  </object>
+  <object id="2" name="motel_door" x="1166.62" y="756.349">
+   <point/>
+  </object>
+  <object id="3" name="house_door" x="71.1694" y="269.327">
    <point/>
   </object>
  </objectgroup>

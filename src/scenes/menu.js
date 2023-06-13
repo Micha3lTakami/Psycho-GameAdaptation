@@ -48,7 +48,7 @@ class Menu extends Phaser.Scene{
                 // restyle border for next scene
                 let canvas = document.querySelector('canvas');
                 canvas.style.border = '10px #ADD8E6 inset';   
-                this.scene.start('introScene'); 
+                this.scene.start('startRoomScene'); 
             });
         }
     }
