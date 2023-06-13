@@ -52,6 +52,7 @@ class Loader extends Phaser.Scene {
         this.load.audio('knifeSelect', 'knifeSelect.mp3');
         this.load.audio('violin', 'PsychoViolin.mp3');
         this.load.audio('introMusic', 'intro.mp3');
+        this.load.audio('batesMotel', 'batesMotel.mp3');
 
   
 
@@ -75,6 +76,9 @@ class Loader extends Phaser.Scene {
         this.load.spritesheet('MarionLeft', 'Marion-LEFT.png', {frameWidth: 11, frameHeight: 17, startFrame: 0, endFrame: 3});
         this.load.spritesheet('MarionUp', 'Marion-UP.png', {frameWidth: 12, frameHeight: 17, startFrame: 0, endFrame: 3});
         this.load.spritesheet('MarionDown', 'Marion-DOWN.png', {frameWidth: 12, frameHeight: 17, startFrame: 0, endFrame: 3});
+        this.load.spritesheet('NormanWalk', 'NormanWalk.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 15});
+        this.load.spritesheet('NormanIdle', 'NormanIdle.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 5});
+        this.load.spritesheet('NormanAttack', 'NormanAttack.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 11});
 
         
         
