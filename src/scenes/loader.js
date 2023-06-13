@@ -36,9 +36,12 @@ class Loader extends Phaser.Scene {
         this.load.tilemapTiledJSON('bates_interiorJSON', './assets/tilemap/bates_interior.json');
         this.load.image('tilesetImage', './assets/tilemap/Modern_Exteriors_Complete_Tileset.png');
         this.load.image('tilesetImage2', './assets/tilemap/interior.png')
-        //this.load.font('HitchFont', './assets/fonts/Hitchcock.ttf');
+
+
+        //font
 
         // teletext stuff
+        this.load.image('dialogbox', './assets/images/dialogbox.png');
         this.load.path = './assets/teletext/';
         this.load.json('dialog', 'dialog.json');
         this.load.bitmapFont('gem_font', 'gem.png', 'gem.xml');

@@ -40,7 +40,7 @@ class Intro extends Phaser.Scene {
 
         
         this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
-        this.officeDoor = new Door(this, buildEntrance.x, buildEntrance.y, 'door', 'menuScene');
+        this.officeDoor = new Door(this, buildEntrance.x, buildEntrance.y, 'door', 'officeScene');
         
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({no_walk:true})

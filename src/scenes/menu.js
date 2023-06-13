@@ -42,13 +42,13 @@ class Menu extends Phaser.Scene{
         if (Phaser.Input.Keyboard.JustDown(keyENTER)) {
             console.log("made it")
             this.sound.play('knifeSelect');
-            this.cameras.main.fadeOut(1000,10,20,30,);
+            //this.cameras.main.fadeOut(1000,10,20,30,);
             this.gameMusic.stop();
             this.time.delayedCall(1200, () =>{
                 // restyle border for next scene
                 let canvas = document.querySelector('canvas');
                 canvas.style.border = '10px #ADD8E6 inset';   
-                this.scene.start('startRoomScene'); 
+                this.scene.launch('talkingScene'); 
             });
         }
     }
