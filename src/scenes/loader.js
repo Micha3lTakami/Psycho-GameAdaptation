@@ -30,6 +30,10 @@ class Loader extends Phaser.Scene {
         
         //add tile info
         this.load.tilemapTiledJSON('tilemapJSON', './assets/tilemap/intro.json');
+        this.load.tilemapTiledJSON('startRoomJSON', './assets/tilemap/startRoom.json');
+        this.load.tilemapTiledJSON('officeJSON', './assets/tilemap/office.json');
+        this.load.tilemapTiledJSON('bates_exteriorJSON', './assets/tilemap/bates_exterior.json');
+        this.load.tilemapTiledJSON('bates_interiorJSON', './assets/tilemap/bates_interior.json');
         this.load.image('tilesetImage', './assets/tilemap/Modern_Exteriors_Complete_Tileset.png');
         this.load.image('tilesetImage2', './assets/tilemap/interior.png')
         //this.load.font('HitchFont', './assets/fonts/Hitchcock.ttf');
@@ -46,6 +50,9 @@ class Loader extends Phaser.Scene {
         this.load.audio('stepLeft', 'stepLeft.mp3');
         this.load.audio('stepRight', 'stepRight.mp3');
         this.load.audio('knifeSelect', 'knifeSelect.mp3');
+        this.load.audio('violin', 'PsychoViolin.mp3');
+        this.load.audio('introMusic', 'intro.mp3');
+
   
 
 
