@@ -51,6 +51,33 @@ class Door extends Phaser.Physics.Arcade.Sprite {
           curScene.scene.start('startRoomScene');
         });
       }
+      else if (this.sceneKey === 'bates_InteriorScene') {
+        curScene.time.delayedCall(1100, () => {
+          // Restyle border for next scene
+          let canvas = document.querySelector('canvas');
+          canvas.style.border = '10px #ADD8E6 inset';
+          console.log("made it here 3");
+          curScene.scene.start('batesInteriorScene');
+        });
+      }
+      else if (this.sceneKey === 'motherScene') {
+        curScene.time.delayedCall(1100, () => {
+          // Restyle border for next scene
+          let canvas = document.querySelector('canvas');
+          canvas.style.border = '10px #ADD8E6 inset';
+          console.log("made it here 3");
+          curScene.scene.start('motherScene');
+        });
+      }
+      else if (this.sceneKey === 'bates_exteriorScene') {
+        curScene.time.delayedCall(1100, () => {
+          // Restyle border for next scene
+          let canvas = document.querySelector('canvas');
+          canvas.style.border = '10px #ADD8E6 inset';
+          console.log("made it here 3");
+          curScene.scene.start('bates_exteriorScene');
+        });
+      }
     });
   }
 }

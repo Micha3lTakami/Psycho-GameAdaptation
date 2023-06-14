@@ -10,6 +10,7 @@ class HotelToDay extends Phaser.Scene {
         this.gameMusic.play();
         this.gameMusic.setVolume(0); // Set initial volume to 0
 
+
         // tween for game music fade in
         this.tweens.add({
         targets: this.gameMusic,

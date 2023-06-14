@@ -8,18 +8,20 @@ class Bates_Interior extends Phaser.Scene {
     create() {
         this.cameras.main.fadeIn(1000);        
         
-        // Create bates music
-        this.gameMusic = this.sound.add('rainCar', { loop: true });
-        this.gameMusic.play();
-        this.gameMusic.setVolume(0); 
+        if(!normanTalk){
+            // Create bates music
+            this.gameMusic = this.sound.add('rainCar', { loop: true });
+            this.gameMusic.play();
+            this.gameMusic.setVolume(0); 
 
-        // tween for game music fade in
-        this.tweens.add({
-        targets: this.gameMusic,
-        volume: 0.3,
-        duration: 3000,
-        ease: 'Linear',
-        });
+            // tween for game music fade in
+            this.tweens.add({
+            targets: this.gameMusic,
+            volume: 0.3,
+            duration: 3000,
+            ease: 'Linear',
+            });
+        }
 
         const map = this.add.tilemap('bates_interiorJSON');
         const intro_set2 = map.addTilesetImage('interior', 'tilesetImage2');
@@ -44,7 +46,7 @@ class Bates_Interior extends Phaser.Scene {
         this.norman.setScale(2);
         
         if(normanTalk == true){
-            this.StartRoomDoor = new Door(this, buildExit.x, buildExit.y, 'door', 'bates_ExteriorScene');
+            this.StartRoomDoor = new Door(this, buildExit.x, buildExit.y, 'door', 'bates_exteriorScene');
             this.StartRoomDoor.setScale(1.5);
         }
         
@@ -65,6 +67,7 @@ class Bates_Interior extends Phaser.Scene {
                 this.time.delayedCall(25000, () => {
                     this.mainChar.canWalk = true;
                     this.gameMusic.pause();
+                    this.scene.stop();
                 }, [], this);
             }
 

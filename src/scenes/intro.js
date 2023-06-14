@@ -61,12 +61,17 @@ class Intro extends Phaser.Scene {
             this.scene.bringToTop('carTalkingScene');
             this.scene.launch('carTalkingScene');
             this.mainChar.canWalk = false;
-            this.time.delayedCall(7000, () => {
-                this.mainChar.canWalk = true;
-                if(money == true && keys == true){
-                    this.gameMusic.pause();
-                }
-            }, [], this);
+            
+                this.time.delayedCall(4000, () => {
+                    this.mainChar.canWalk = true;
+                    if(money == true && keys == true){
+                        this.scene.stop();
+                        if(money == true && keys == true){
+                            this.gameMusic.pause();
+                        }
+                    }
+                }, [], this);
+            
         })
 
         // cameras
