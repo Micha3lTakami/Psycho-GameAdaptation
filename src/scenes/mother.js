@@ -39,8 +39,7 @@ class Mother extends Phaser.Scene{
                     },
                   };
         this.time.delayedCall(7000, () => {
-            this.label = this.add.text(w*.2, h*.2, 'To be Continued...', textStyle);
-            this.label2 = this.add.text(w*.2, h*.3, 'Press enter to return to the menu', textStyle);
+            this.scene.launch('endCreditsScene')
         }, [], this);
 
                 // define keys

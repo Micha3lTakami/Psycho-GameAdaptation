@@ -29,7 +29,7 @@ let config = {
         }
     },
     zoom: 2,
-    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom, Office, keysTalking, bossTalking, carTalking, townToBates, Bates_Interior, Bates_Exterior, NormanIntro, HotelToDay, Mother ]
+    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom, Office, keysTalking, bossTalking, carTalking, townToBates, Bates_Interior, Bates_Exterior, NormanIntro, HotelToDay, Mother, endCredits ]
 }
 
 // define game
