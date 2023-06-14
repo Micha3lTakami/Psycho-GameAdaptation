@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="3">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="5">
  <editorsettings>
   <export target="bates_interior.json" format="json"/>
  </editorsettings>
@@ -14737,42 +14737,42 @@
   </tile>
   <tile id="3194">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3195">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3196">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3197">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3198">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3199">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3200">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3201">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3202">
@@ -14812,27 +14812,27 @@
   </tile>
   <tile id="3209">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3210">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3211">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3212">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3213">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3214">
@@ -15297,42 +15297,42 @@
   </tile>
   <tile id="3311">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3312">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3313">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3314">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3315">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3316">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3317">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3318">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3319">
@@ -15372,27 +15372,27 @@
   </tile>
   <tile id="3326">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3327">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3328">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3329">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3330">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3331">
@@ -15857,42 +15857,42 @@
   </tile>
   <tile id="3428">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3429">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3430">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3431">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3432">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3433">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3434">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3435">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3436">
@@ -15932,27 +15932,27 @@
   </tile>
   <tile id="3443">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3444">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3445">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3446">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3447">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3448">
@@ -16322,42 +16322,42 @@
   </tile>
   <tile id="3526">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3527">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3528">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3529">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3530">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3531">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3532">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3533">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3534">
@@ -16882,42 +16882,42 @@
   </tile>
   <tile id="3643">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3644">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3645">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3646">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3647">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3648">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3649">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3650">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3651">
@@ -17442,42 +17442,42 @@
   </tile>
   <tile id="3760">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3761">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3762">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3763">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3764">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3765">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3766">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3767">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3768">
@@ -18002,42 +18002,42 @@
   </tile>
   <tile id="3877">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3878">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3879">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3880">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3881">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3882">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3883">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3884">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3885">
@@ -18562,42 +18562,42 @@
   </tile>
   <tile id="3994">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3995">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3996">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3997">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3998">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="3999">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4000">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4001">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4002">
@@ -19122,42 +19122,42 @@
   </tile>
   <tile id="4111">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4112">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4113">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4114">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4115">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4116">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4117">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4118">
    <properties>
-    <property name="no_walk" type="bool" value="true"/>
+    <property name="no_walk" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4119">
@@ -52402,7 +52402,7 @@
 766,3211,3212,3213,3328,3328,3328,3211,3211,3211,3211,3211,3211,3212,3328,3328,3329,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3328,3328,3328,3328,3328,3328,3328,3328,3328,3329,3330,3330,3329,3330,3211,3212,3213,889,
 649,3211,3212,3213,3328,3329,3330,3328,3328,3328,3328,3328,3211,3211,3211,3211,3211,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3329,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3330,3213,3213,3213,3330,889,
 766,3211,3212,3211,3211,3211,3211,3211,3211,3211,3211,3211,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3329,3330,3330,3211,3211,3211,3211,3211,3211,3211,3211,3211,3211,3211,3328,3328,3328,3328,3328,3329,3330,3330,3330,3330,3213,889,
-1220,3328,3329,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3328,3329,3330,3328,3328,3328,3328,3328,3328,3329,3330,1226
+1220,533,534,535,533,534,533,534,535,3328,3328,533,534,535,3328,3328,533,534,535,533,533,533,534,535,533,534,533,534,535,3328,3328,3328,3328,3328,3328,3328,3328,533,534,535,3330,3328,533,534,535,533,533,534,535,1226
 </data>
  </layer>
  <layer id="2" name="decorations" width="50" height="30">
@@ -52423,12 +52423,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,4112,4113,4114,4115,4116,4117,4118,4119,0,0,0,0,0,0,4112,4113,4114,4115,4116,4117,4118,4119,0,0,0,0,0,0,0,0,0,0,0,10546,10547,10548,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10663,10664,10665,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10780,10781,10782,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,3527,3528,3529,3530,3531,3532,3533,3534,0,0,0,0,0,3527,3528,3529,3530,3531,3532,3533,3534,0,0,0,0,0,0,0,0,0,0,0,0,10897,10898,10899,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,3644,3645,3646,3647,3648,3649,3650,3651,0,0,0,0,0,3644,3645,3646,3647,3648,3649,3650,3651,0,0,0,0,0,0,0,0,0,0,0,0,11014,11015,11016,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,3761,3762,3763,3764,3765,3766,3767,3768,0,0,0,0,0,3761,3762,3763,3764,3765,3766,3767,3768,0,0,0,0,0,0,0,0,0,0,0,0,11131,11132,11133,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,3878,3879,3880,3881,3882,3883,3884,3885,0,0,0,0,0,3878,3879,3880,3881,3882,3883,3884,3885,0,0,0,0,0,0,0,0,0,0,0,0,10546,10547,10548,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,3995,3996,3997,3998,3999,4000,4001,4002,0,0,0,0,0,3995,3996,3997,3998,3999,4000,4001,4002,0,0,0,0,0,0,0,0,0,0,0,0,10663,10664,10665,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,4112,4113,4114,4115,4116,4117,4118,4119,0,0,0,0,0,4112,4113,4114,4115,4116,4117,4118,4119,0,0,0,0,0,0,0,0,0,0,0,0,10780,10781,10782,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3527,3528,3529,3530,3531,3532,3533,3534,0,0,0,0,0,0,3527,3528,3529,3530,3531,3532,3533,3534,0,0,0,0,0,0,0,0,0,0,0,10897,10898,10899,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3644,3645,3646,3647,3648,3649,3650,3651,0,0,0,0,0,0,3644,3645,3646,3647,3648,3649,3650,3651,0,0,0,0,0,0,0,0,0,0,0,11014,11015,11016,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3761,3762,3763,3764,3765,3766,3767,3768,0,0,0,0,0,0,3761,3762,3763,3764,3765,3766,3767,3768,0,0,0,0,0,0,0,0,0,0,0,11131,11132,11133,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3878,3879,3880,3881,3882,3883,3884,3885,0,0,0,0,0,0,3878,3879,3880,3881,3882,3883,3884,3885,0,0,0,0,0,0,0,0,0,0,0,10546,10547,10548,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3995,3996,3997,3998,3999,4000,4001,4002,0,0,0,0,0,0,3995,3996,3997,3998,3999,4000,4001,4002,0,0,0,0,0,0,0,0,0,0,0,10663,10664,10665,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4112,4113,4114,4115,4116,4117,4118,4119,0,0,0,0,0,0,4112,4113,4114,4115,4116,4117,4118,4119,0,0,0,0,0,0,0,0,0,0,0,10780,10781,10782,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10897,10898,10899,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11014,11015,11016,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11131,11132,11133,0,
@@ -52444,6 +52444,9 @@
    <point/>
   </object>
   <object id="2" name="door" x="502.592" y="473.79">
+   <point/>
+  </object>
+  <object id="3" name="norman_spawn" x="128.986" y="194.203">
    <point/>
   </object>
  </objectgroup>

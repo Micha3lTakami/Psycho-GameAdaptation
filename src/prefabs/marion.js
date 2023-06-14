@@ -47,16 +47,8 @@ class Marion extends Phaser.Physics.Arcade.Sprite {
       this.isWalkingRD = false;
       this.isWalking = false;
       this.canWalk = true;
-      //this.inventory = string({});
     }
     
-    interact(script){
-        this.talk(script);
-    }
-
-    addItem(item){
-      this.inventory.add(item);
-    }
 
     update() {
       if(this.canWalk){
