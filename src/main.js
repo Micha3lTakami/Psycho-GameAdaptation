@@ -28,7 +28,7 @@ let config = {
         }
     },
     zoom: 2,
-    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom, Office, keysTalking, bossTalking, carTalking, townToBates ]
+    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom, Office, keysTalking, bossTalking, carTalking, townToBates, Bates_Interior, NormanIntro ]
 }
 
 // define game
@@ -38,6 +38,7 @@ let game = new Phaser.Game(config);
 let keyUP, keyLEFT, keyRIGHT, keyENTER, keyR;
 let cursors = null;
 let talked = false;
+let normanTalk = false;
 let keys = false;
 let money = false;
 
