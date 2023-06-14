@@ -1,6 +1,6 @@
-class Talking extends Phaser.Scene {
+class keysTalking extends Phaser.Scene {
     constructor() {
-        super('talkingScene');
+        super('keysTalkingScene');
 
     }
 
@@ -12,7 +12,7 @@ class Talking extends Phaser.Scene {
       
         // Create the text with desired style
         const textStyle = {
-          fontSize: '15px',
+          fontSize: '20px',
           fontFamily: 'Optima',
           fontWeight: 'bold',
           color: '#e6dfcc', 
@@ -22,17 +22,18 @@ class Talking extends Phaser.Scene {
         };
       
         this.label = this.add.text(w*.2, h*.2, '', textStyle);
-      
-        this.typewriteText('Marion: I need to start a new, my life here is seemingly going nowhere.\nSam: Marion, you don\'t have any money where would you even go\nMarion:What if I could get some?\nSam: The world would be your Oyster darling\nMarion thinks ~ I have to retrieve my keys from the chest and somehow, get some money...');
 
-        // end talk after 15
-        this.time.delayedCall(18000, () => {
-            this.scene.stop('talkingScene');
+        if(money == false){
+            this.typewriteText('*Marion jingles the key at Sam*\nMarion: All I need is some money now and fast...the clients at my office down the street have wealth more than I can imagine\nMaybe I could borrow some..');
+        }
+        else{
+            this.typewriteText('Marion Thinks:\nHoly smokes, maybe I can start a new life...gotta get to the car.');    
+        }
+        this.time.delayedCall(11000, () => {
+            this.scene.stop('keysTalkingScene');
         });
       }
-    update(){
 
-    }
     typewriteText(text){
         const length = text.length
         let i = 0

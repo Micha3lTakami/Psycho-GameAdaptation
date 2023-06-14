@@ -25,8 +25,8 @@ class Intro extends Phaser.Scene {
         // tween for game music fade in
         this.tweens.add({
         targets: this.gameMusic,
-        volume: 0.4,
-        duration: 2000,
+        volume: 0.3,
+        duration: 3000,
         ease: 'Linear',
         });
 
@@ -38,11 +38,18 @@ class Intro extends Phaser.Scene {
         const carLayer = map.createLayer('car', intro_set, 0, 0);
 
         const marionSpawn = map.findObject('spawn', obj => obj.name === 'marion_spawn');
+        const marionSpawn2 = map.findObject('spawn', obj => obj.name === 'marion_spawn2');
         const buildEntrance = map.findObject('spawn', obj => obj.name === 'building_entrance');
+        const buildEntrance2 = map.findObject('spawn', obj => obj.name === 'sam_door');
 
-        
-        this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
+        if(money == false){
+            this.mainChar = new Marion(this, marionSpawn.x, marionSpawn.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
+        }
+        else{
+            this.mainChar = new Marion(this, marionSpawn2.x, marionSpawn2.y, 'MarionUp', 'MarionDown', 'MarionLeft', 'MarionRight');
+        }
         this.officeDoor = new Door(this, buildEntrance.x, buildEntrance.y, 'door', 'officeScene');
+        this.samDoor = new Door(this, buildEntrance2.x, buildEntrance2.y, 'door', 'startRoomScene');
         
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({no_walk:true})
@@ -50,7 +57,17 @@ class Intro extends Phaser.Scene {
 
   
         this.physics.add.collider(this.mainChar, buildingLayer)
-        this.physics.add.collider(this.mainChar, carLayer)
+        this.physics.add.collider(this.mainChar, carLayer, () =>{
+            this.scene.bringToTop('carTalkingScene');
+            this.scene.launch('carTalkingScene');
+            this.mainChar.canWalk = false;
+            this.time.delayedCall(7000, () => {
+                this.mainChar.canWalk = true;
+                if(money == true && keys == true){
+                    this.gameMusic.pause();
+                }
+            }, [], this);
+        })
 
         // cameras
         this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels)

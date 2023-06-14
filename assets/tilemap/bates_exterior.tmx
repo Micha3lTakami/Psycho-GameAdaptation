@@ -5,6 +5,3251 @@
  </editorsettings>
  <tileset firstgid="1" name="Modern_Exteriors_Complete_Tileset" tilewidth="16" tileheight="16" tilecount="41712" columns="176">
   <image source="Modern_Exteriors_Complete_Tileset.png" trans="000000" width="2816" height="3792"/>
+  <tile id="756">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="757">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="758">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10655">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10656">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10657">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10658">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10659">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10660">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10661">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10662">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10663">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10831">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10832">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10833">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10834">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10835">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10836">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10837">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10838">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10839">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11007">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11008">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11009">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11010">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11011">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11012">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11013">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11014">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11015">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11183">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11184">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11185">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11186">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11187">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11188">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11189">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11190">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11191">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11359">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11360">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11361">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11362">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11363">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11364">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11365">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11366">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11367">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11535">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11536">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11537">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11538">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11539">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11540">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11541">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11542">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11543">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11711">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11712">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11713">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11714">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11715">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11716">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11717">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11718">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11719">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11887">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11888">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11889">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11890">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11891">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11892">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11893">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11894">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11895">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12063">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12064">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12065">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12066">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12067">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12068">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12069">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12070">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12071">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12239">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12240">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12241">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12242">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12243">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12244">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12245">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12246">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12247">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12415">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12416">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12417">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12418">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12419">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12420">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12421">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12422">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12423">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12591">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12592">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12593">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12594">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12595">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12596">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12597">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12598">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12599">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12767">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12768">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12769">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12770">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12771">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12772">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12773">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12774">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12775">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29702">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29703">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29704">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29705">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29706">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29707">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29708">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29709">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29710">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29711">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29712">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29713">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29714">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29715">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29716">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29717">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29718">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29719">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29720">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29721">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29722">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29723">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29724">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29878">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29879">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29880">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29881">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29882">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29883">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29884">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29885">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29886">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29887">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29888">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29889">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29890">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29891">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29892">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29893">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29894">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29895">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29896">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29897">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29898">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29899">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29900">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30054">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30055">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30056">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30057">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30058">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30059">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30060">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30061">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30062">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30063">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30064">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30065">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30066">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30067">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30068">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30069">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30070">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30071">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30072">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30073">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30074">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30075">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30076">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30230">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30231">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30232">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30233">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30234">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30235">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30236">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30237">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30238">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30239">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30240">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30241">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30242">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30243">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30244">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30245">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30246">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30247">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30248">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30249">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30250">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30251">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30252">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30406">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30407">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30408">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30409">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30410">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30411">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30412">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30413">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30414">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30415">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30416">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30417">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30418">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30419">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30420">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30421">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30422">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30423">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30424">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30425">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30426">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30427">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30428">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30582">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30583">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30584">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30585">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30586">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30587">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30588">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30589">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30590">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30591">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30592">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30593">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30594">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30595">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30596">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30597">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30598">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30599">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30600">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30601">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30602">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30603">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30604">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30758">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30759">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30760">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30761">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30762">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30763">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30764">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30765">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30766">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30767">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30768">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30769">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30770">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30771">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30772">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30773">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30774">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30775">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30776">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30777">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30778">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30779">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30780">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30934">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30935">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30936">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30937">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30938">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30939">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30940">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30941">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30942">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30943">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30944">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30945">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30946">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30947">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30948">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30949">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30950">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30951">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30952">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30953">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30954">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30955">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30956">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31110">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31111">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31112">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31113">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31114">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31115">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31116">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31117">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31118">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31119">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31120">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31121">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31122">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31123">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31124">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31125">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31126">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31127">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31128">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31129">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31130">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31131">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31132">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31286">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31287">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31288">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31289">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31290">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31291">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31292">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31293">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31294">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31295">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31296">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31297">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31298">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31299">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31300">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31301">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31302">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31303">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31304">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31305">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31306">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31307">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31308">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31462">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31463">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31464">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31465">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31466">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31467">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31468">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31469">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31470">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31471">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31472">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31473">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31474">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31475">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31476">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31477">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31478">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31479">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31480">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31481">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31482">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31483">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31484">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31638">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31639">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31640">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31641">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31642">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31643">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31644">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31645">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31646">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31647">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31648">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31649">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31650">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31651">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31652">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31653">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31654">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31655">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31656">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31657">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31658">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31659">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31660">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31814">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31815">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31816">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31817">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31818">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31819">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31820">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31821">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31822">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31823">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31824">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31825">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31826">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31827">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31828">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31829">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31830">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31831">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31832">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31833">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31834">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31835">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31836">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31990">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31991">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31992">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31993">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31994">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31995">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31996">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31997">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31998">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31999">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32000">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32001">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32002">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32003">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32004">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32005">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32006">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32007">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32008">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32009">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32010">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32011">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32012">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32166">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32167">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32168">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32169">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32170">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32171">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32172">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32173">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32174">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32175">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32176">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32177">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32178">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32179">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32180">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32181">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32182">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32183">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32184">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32185">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32186">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32187">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32188">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32342">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32343">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32344">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32345">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32346">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32347">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32348">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32349">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32350">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32351">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32352">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32353">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32354">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32355">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32356">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32357">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32358">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32359">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32360">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32361">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32362">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32363">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32364">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32518">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32519">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32520">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32521">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32522">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32523">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32524">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32525">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32526">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32527">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32528">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32529">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32530">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32531">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32532">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32533">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32534">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32535">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32536">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32537">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32538">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32539">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32540">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32694">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32695">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32696">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32697">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32698">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32699">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32700">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32701">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32702">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32703">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32704">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32705">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32706">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32707">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32708">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32709">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32710">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32711">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32712">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32713">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32714">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32715">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32716">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32870">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32871">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32872">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32873">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32874">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32875">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32876">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32877">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32878">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32879">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32880">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32881">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32882">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32883">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32884">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32885">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32886">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32887">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32888">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32889">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32890">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32891">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32892">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33046">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33047">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33048">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33049">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33050">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33051">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33052">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33053">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33054">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33055">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33056">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33057">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33058">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33059">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33060">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33061">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33062">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33063">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33064">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33065">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33066">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33067">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33068">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33222">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33223">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33224">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33225">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33226">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33227">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33228">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33229">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33230">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33231">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33232">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33233">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33234">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33235">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33236">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33237">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33238">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33239">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33240">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33241">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33242">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33243">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33244">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33398">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33399">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33400">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33401">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33402">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33403">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33404">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33405">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33406">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33407">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33408">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33409">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33410">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33411">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33412">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33413">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33414">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33415">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33416">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33417">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33418">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33419">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33420">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33574">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33575">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33576">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33577">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33578">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33579">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33580">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33581">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33582">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33583">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33584">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33585">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33586">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33587">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33588">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33589">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33590">
+   <properties>
+    <property name="no_walk" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33591">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33592">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33593">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33594">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33595">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33596">
+   <properties>
+    <property name="no_walk" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="100" height="100">
   <data encoding="csv">
@@ -18,12 +3263,12 @@
 759,759,758,759,758,759,758,759,758,758,759,758,758,758,758,759,758,758,758,758,759,758,758,759,758,758,758,759,758,759,759,759,758,759,759,758,758,759,758,758,759,759,758,758,759,759,759,758,758,759,758,759,758,759,759,758,759,758,759,759,758,758,759,759,758,759,758,758,758,759,758,758,759,759,758,759,759,758,758,759,758,758,759,759,759,759,758,758,759,759,759,758,758,759,759,759,758,759,759,758,
 759,759,758,758,758,758,759,758,759,759,758,759,758,758,759,758,758,759,758,759,758,758,758,759,759,759,759,759,759,758,759,759,759,759,758,759,758,758,759,758,758,759,758,759,759,759,759,759,758,758,758,759,758,758,759,759,759,759,759,759,759,759,759,758,759,758,758,759,758,759,759,759,759,759,758,758,759,759,758,758,759,759,758,758,758,759,758,758,759,758,759,759,758,759,758,758,759,759,758,759,
 759,759,758,758,758,758,758,758,759,758,759,759,759,758,759,759,759,758,758,758,759,759,759,758,759,759,758,759,758,759,758,758,758,758,758,759,758,758,759,759,758,758,758,758,758,758,758,759,758,759,758,758,758,758,758,758,759,759,759,758,758,759,759,758,758,759,759,759,759,758,758,758,759,759,759,759,759,759,758,759,758,759,759,758,759,758,759,758,759,758,758,759,758,759,758,758,759,758,759,758,
-759,758,759,758,758,758,759,759,758,758,758,759,758,759,758,759,758,759,758,759,759,758,758,758,759,759,758,758,758,758,759,758,758,759,758,759,758,759,759,759,759,758,759,758,758,758,758,758,759,759,758,759,759,759,758,759,758,759,759,758,759,758,759,758,759,759,759,758,759,759,759,759,758,759,758,759,758,759,759,759,758,758,759,759,759,758,759,759,759,758,758,759,759,759,759,758,759,759,758,758,
-759,759,759,759,759,759,758,759,759,759,758,758,759,758,758,759,758,758,759,759,758,759,758,758,758,759,759,758,759,758,758,758,759,758,759,759,758,758,758,759,759,759,759,759,759,759,759,758,759,759,758,759,758,758,759,759,759,759,758,759,759,759,758,758,759,759,759,758,759,758,758,758,758,758,759,758,758,759,759,758,759,759,758,758,759,759,758,759,759,758,758,758,758,758,758,759,758,758,759,758,
-758,759,759,758,759,759,758,758,758,759,758,759,759,759,758,759,759,759,758,758,758,758,759,758,758,758,758,759,758,758,758,759,758,758,758,759,759,758,758,758,758,759,758,759,759,759,759,759,759,758,759,758,759,759,758,759,758,758,758,759,758,759,758,758,759,758,759,758,758,758,758,758,759,758,758,759,759,758,758,758,758,758,759,758,758,758,759,758,758,758,758,758,758,759,758,758,759,759,759,759,
-759,758,758,758,758,759,758,759,759,758,758,758,758,759,759,759,758,758,758,758,759,759,758,758,758,758,759,759,758,759,759,758,759,758,758,758,758,758,759,758,758,758,758,759,758,759,758,758,759,758,758,758,758,758,759,759,759,758,759,758,758,759,758,758,759,758,758,758,759,759,758,759,758,758,759,758,758,758,759,758,758,758,758,758,759,759,759,759,758,758,759,759,758,758,758,758,758,759,759,758,
-758,758,758,758,758,758,759,758,758,758,758,759,759,758,759,758,759,759,759,758,758,758,758,759,758,758,759,758,759,759,758,759,759,758,759,759,758,758,758,759,758,758,758,759,758,758,758,758,758,759,758,758,759,758,758,759,758,759,759,759,759,759,759,758,758,759,759,759,759,759,758,758,758,759,759,759,759,758,758,758,758,759,759,758,758,758,758,758,759,758,759,759,758,758,758,759,759,758,759,759,
-758,758,758,759,759,758,758,759,759,758,759,759,758,758,758,758,759,758,758,759,758,759,759,758,759,758,759,759,758,758,758,758,758,759,758,759,759,758,758,758,759,759,758,758,758,758,759,758,759,759,759,759,758,758,759,759,758,759,758,759,758,759,759,758,758,759,759,758,759,758,758,758,758,759,759,759,759,759,759,758,758,759,758,758,758,759,759,758,759,759,758,758,759,759,759,758,758,759,758,759,
+759,758,759,758,758,758,759,759,758,758,11896,759,758,759,758,759,758,759,758,759,759,758,758,758,759,759,758,758,758,758,759,758,758,759,758,759,758,759,759,759,759,758,759,758,758,758,758,758,759,759,758,759,759,759,758,759,758,759,759,758,759,758,759,758,759,759,759,758,759,759,759,759,758,759,758,759,758,759,759,759,758,758,759,759,759,758,759,759,759,758,758,759,759,759,759,758,759,759,758,758,
+759,759,759,759,759,759,758,759,759,759,12072,758,759,758,758,759,758,758,759,759,758,759,758,758,758,759,759,758,759,758,758,758,759,758,759,759,758,758,758,759,759,759,759,759,759,759,759,758,759,759,758,759,758,758,759,759,759,759,758,759,759,759,758,758,759,759,759,758,759,758,758,758,758,758,759,758,758,759,759,758,759,759,758,758,759,759,758,759,759,758,758,758,758,758,758,759,758,758,759,758,
+758,759,759,758,759,759,758,758,758,759,12248,759,759,759,758,759,759,759,758,758,758,758,759,758,758,758,758,759,758,758,758,759,758,758,758,759,759,758,758,758,758,759,758,759,759,759,759,759,759,758,759,758,759,759,758,759,758,758,758,759,758,759,758,758,759,758,759,758,758,758,758,758,759,758,758,759,759,758,758,758,758,758,759,758,758,758,759,758,758,758,758,758,758,759,758,758,759,759,759,759,
+759,758,758,758,758,759,758,759,759,758,12424,758,758,759,759,759,758,758,758,758,759,759,758,758,758,758,759,759,758,759,759,758,759,758,758,758,758,758,759,758,758,758,758,759,758,759,758,758,759,758,758,758,758,758,759,759,759,758,759,758,758,759,758,758,759,758,758,758,759,759,758,759,758,758,759,758,758,758,759,758,758,758,758,758,759,759,759,759,758,758,759,759,758,758,758,758,758,759,759,758,
+758,758,758,758,758,758,759,758,758,758,12600,759,759,758,759,758,759,759,759,758,758,758,758,759,758,758,759,758,759,759,758,759,759,758,759,759,758,758,758,759,758,758,758,759,758,758,758,758,758,759,758,758,759,758,758,759,758,759,759,759,759,759,759,758,758,759,759,759,759,759,758,758,758,759,759,759,759,758,758,758,758,759,759,758,758,758,758,758,759,758,759,759,758,758,758,759,759,758,759,759,
+758,758,758,759,759,758,758,759,759,758,12776,759,758,758,758,758,759,758,758,759,758,759,759,758,759,758,759,759,758,758,758,758,758,759,758,759,759,758,758,758,759,759,758,758,758,758,759,758,759,759,759,759,758,758,759,759,758,759,758,759,758,759,759,758,758,759,759,758,759,758,758,758,758,759,759,759,759,759,759,758,758,759,758,758,758,759,759,758,759,759,758,758,759,759,759,758,758,759,758,759,
 759,759,9,9,9,9,9,9,10,11,12,9,10,11,9,10,11,12,759,759,758,758,759,759,759,759,758,758,759,759,759,758,759,759,758,758,759,758,759,758,758,758,759,759,759,759,759,759,758,758,759,758,758,759,759,759,758,758,758,759,758,758,758,758,759,759,759,759,758,759,758,759,758,759,758,759,758,759,758,759,758,759,759,759,758,758,759,758,759,758,759,758,758,759,758,759,758,758,758,758,
 759,759,9,10,11,12,9,9,10,11,12,9,10,11,9,10,11,12,758,758,759,758,759,759,759,758,758,758,758,758,759,758,758,759,758,758,759,758,758,759,758,758,759,758,759,759,759,758,759,758,758,759,759,758,758,758,759,759,759,758,758,758,759,759,758,758,759,758,759,759,758,758,759,758,759,758,758,759,759,759,759,759,758,758,758,758,759,758,758,758,759,759,758,758,759,758,759,758,758,758,
 759,759,9,10,11,9,9,10,11,12,10,9,10,11,9,10,11,12,758,758,758,759,758,758,759,758,759,759,759,758,759,758,758,758,759,758,759,759,759,759,759,758,758,758,758,758,759,759,759,758,759,759,759,758,759,758,759,758,759,758,758,758,759,759,759,759,758,759,759,758,759,759,759,758,759,759,759,758,759,758,759,759,758,758,758,759,759,759,758,758,759,758,759,759,759,759,759,758,758,759,
@@ -215,7 +3460,7 @@
 </data>
  </layer>
  <objectgroup id="3" name="spawn">
-  <object id="1" name="marion_spawn" x="1088.47" y="978.231">
+  <object id="1" name="marion_spawn" x="1168.76" y="881.047">
    <point/>
   </object>
   <object id="2" name="motel_door" x="1166.62" y="756.349">

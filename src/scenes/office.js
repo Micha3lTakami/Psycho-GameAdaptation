@@ -15,6 +15,8 @@ class Office extends Phaser.Scene {
         // Apply the pipeline to the entire scene
         this.cameras.main.setRenderToTexture(pipeline);*/
 
+        this.cameras.main.fadeIn(1000);
+        
         // Create intro music
         this.gameMusic = this.sound.add('introMusic', { loop: true });
         this.gameMusic.play();
@@ -51,7 +53,18 @@ class Office extends Phaser.Scene {
 
   
         this.physics.add.collider(this.mainChar, buildingLayer)
-        this.physics.add.collider(this.mainChar, bossLayer)
+        this.physics.add.collider(this.mainChar, bossLayer, () =>{
+            if(money == false){
+                money = true;
+                this.scene.bringToTop('bossTalkingScene');
+                this.scene.launch('bossTalkingScene');
+                this.mainChar.canWalk = false;
+                this.time.delayedCall(8000, () => {
+                    this.mainChar.canWalk = true;
+                }, [], this);
+
+            }
+        })
         this.physics.add.collider(this.mainChar, baseLayer)
 
         // cameras

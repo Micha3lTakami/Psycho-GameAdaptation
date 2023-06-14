@@ -1,6 +1,6 @@
-class Talking extends Phaser.Scene {
+class carTalking extends Phaser.Scene {
     constructor() {
-        super('talkingScene');
+        super('carTalkingScene');
 
     }
 
@@ -12,7 +12,7 @@ class Talking extends Phaser.Scene {
       
         // Create the text with desired style
         const textStyle = {
-          fontSize: '15px',
+          fontSize: '20px',
           fontFamily: 'Optima',
           fontWeight: 'bold',
           color: '#e6dfcc', 
@@ -22,17 +22,25 @@ class Talking extends Phaser.Scene {
         };
       
         this.label = this.add.text(w*.2, h*.2, '', textStyle);
-      
-        this.typewriteText('Marion: I need to start a new, my life here is seemingly going nowhere.\nSam: Marion, you don\'t have any money where would you even go\nMarion:What if I could get some?\nSam: The world would be your Oyster darling\nMarion thinks ~ I have to retrieve my keys from the chest and somehow, get some money...');
 
-        // end talk after 15
-        this.time.delayedCall(18000, () => {
-            this.scene.stop('talkingScene');
-        });
+        if(keys == true && money == true){
+            this.typewriteText('Marion: I have money and a car, I deserve happiness. I\'ll take the chance, disappear, and leave it all behind, good days are ahead.');
+            this.time.delayedCall(8000, () => {
+                this.scene.stop('carTalkingScene');
+                this.cameras.main.fadeOut(1000,10,20,30,);
+                this.scene.start('townToBatesScene');
+                
+            });
+        }
+        else{
+            this.typewriteText('Marion: hmmmm I can\'t leave without both my keys and some money, better go get them...');    
+            this.time.delayedCall(5000, () => {
+                this.scene.stop('carTalkingScene');
+            });
+        }
+
       }
-    update(){
 
-    }
     typewriteText(text){
         const length = text.length
         let i = 0

@@ -34,14 +34,22 @@ class Menu extends Phaser.Scene{
           scaleX: { value: 1.05, yoyo: true, duration: 9000, ease: 'Sine.easeIn' },
           x: '+=1',
           repeat: -1,
-          duration: 3000,
+          duration: 2000,
           ease: 'Sine.easeInOut',
         });
 
         // directions
-        const directionStyle = { fontFamily: 'Georgia', allign: 'center',  fontSize: '16px', color: '#f29057' };
-        const directions = this.add.text(w*.1, h*.5, 'Use [W,A,S,D] to move', directionStyle);
-        const directions2 = this.add.text(w*.1, h*.6,'[SPACE] to interact', directionStyle);
+        const directionStyle = {
+            fontFamily: 'Helvetica',
+            fontStyle: 'bold italic',
+            align: 'center',
+            fontSize: '16px',
+            color: '#f29057'
+          };
+        const directions = this.add.text(w*.6, h*.2, 'Use [W,A,S,D] to move', directionStyle);
+        const directions2 = this.add.text(w*.1, h*.4,'Get out of the shower and talk to Sam, Ms.Crane', directionStyle);
+        const directions3 = this.add.text(w*.1, h*.9,'Press enter to continue.', directionStyle);
+        
         // define keys
         keyENTER = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.ENTER);
     }

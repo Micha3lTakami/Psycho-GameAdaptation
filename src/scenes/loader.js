@@ -40,11 +40,7 @@ class Loader extends Phaser.Scene {
 
         //font
 
-        // teletext stuff
-        this.load.image('dialogbox', './assets/images/dialogbox.png');
-        this.load.path = './assets/teletext/';
-        this.load.json('dialog', 'dialog.json');
-        this.load.bitmapFont('gem_font', 'gem.png', 'gem.xml');
+
 
         // load audio file path
         this.load.path  = './assets/sounds/'
@@ -56,6 +52,7 @@ class Loader extends Phaser.Scene {
         this.load.audio('violin', 'PsychoViolin.mp3');
         this.load.audio('introMusic', 'intro.mp3');
         this.load.audio('batesMotel', 'batesMotel.mp3');
+        this.load.audio('rainCar', 'rainCar.mp3');
 
   
 

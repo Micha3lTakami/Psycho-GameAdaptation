@@ -14,7 +14,7 @@ class StartRoom extends Phaser.Scene {
 
         // Apply the pipeline to the entire scene
         this.cameras.main.setRenderToTexture(pipeline);*/
-
+        this.cameras.main.fadeIn(1000);
         // Create intro music
         this.gameMusic = this.sound.add('introMusic', { loop: true });
         this.gameMusic.play();
@@ -23,8 +23,8 @@ class StartRoom extends Phaser.Scene {
         // tween for game music fade in
         this.tweens.add({
         targets: this.gameMusic,
-        volume: 0.4,
-        duration: 2000,
+        volume: 0.3,
+        duration: 3000,
         ease: 'Linear',
         });
 
@@ -54,15 +54,29 @@ class StartRoom extends Phaser.Scene {
 
   
         this.physics.add.collider(this.mainChar, buildingLayer)
-        this.physics.add.collider(this.mainChar, keyLayer)
+        this.physics.add.collider(this.mainChar, keyLayer, () =>{
+            if(keys == false){
+                keys = true;
+                this.scene.bringToTop('keysTalkingScene');
+                this.scene.launch('keysTalkingScene');
+                this.mainChar.canWalk = false;
+                this.time.delayedCall(8000, () => {
+                    this.mainChar.canWalk = true;
+                }, [], this);
+
+            }
+        })
         this.physics.add.collider(this.mainChar, baseLayer)
         this.physics.add.collider(this.mainChar, samLayer, () =>{
-            this.scene.bringToTop('talkingScene');
-            this.scene.launch('talkingScene');
-            this.mainChar.canWalk = false;
-            this.time.delayedCall(5000, () => {
-                this.mainChar.canWalk = true;
-            }, [], this);
+            if(talked == false){    
+                talked = true;
+                this.scene.bringToTop('talkingScene');
+                this.scene.launch('talkingScene');
+                this.mainChar.canWalk = false;
+                this.time.delayedCall(9000, () => {
+                    this.mainChar.canWalk = true;
+                }, [], this);
+            }
         })
 
         // cameras
