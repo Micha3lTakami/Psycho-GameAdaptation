@@ -5,6 +5,11 @@ class Menu extends Phaser.Scene{
     // create()
     // create start scene
     create() {
+        talked = false;
+        normanTalk = false;
+        mother = false;
+        keys = false;
+        money = false;
         this.cameras.main.fadeIn(1000);
         this.gameMusic = this.sound.add('theme', { loop: true });
         this.gameMusic.play({ seek: 5 });
