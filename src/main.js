@@ -1,4 +1,5 @@
 // PSYCHO
+// Major aspects of Phaser used: physics systems, cameras, text objects, animation manager, tween manager, and tile maps
 
 // enable JS Strict Mode
 'use strict';
@@ -20,7 +21,7 @@ let config = {
     physics: {
         default: 'arcade',
         arcade: {
-            debug: true,
+            
             gravity: {
                 x: 0,
                 y: 0
@@ -28,7 +29,7 @@ let config = {
         }
     },
     zoom: 2,
-    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom, Office, keysTalking, bossTalking, carTalking, townToBates, Bates_Interior, NormanIntro ]
+    scene: [ Loader, Start, Menu, Intro, Talking, StartRoom, Office, keysTalking, bossTalking, carTalking, townToBates, Bates_Interior, Bates_Exterior, NormanIntro, HotelToDay, Mother ]
 }
 
 // define game
@@ -39,6 +40,7 @@ let keyUP, keyLEFT, keyRIGHT, keyENTER, keyR;
 let cursors = null;
 let talked = false;
 let normanTalk = false;
+let mother = false;
 let keys = false;
 let money = false;
 

@@ -43,8 +43,10 @@ class Bates_Interior extends Phaser.Scene {
         this.norman = new Norman(this, NormanSpawn.x, NormanSpawn.y, this.mainChar, false, 'NormanWalk', 'NormanIdle', 'NormanAttack');
         this.norman.setScale(2);
         
-        this.StartRoomDoor = new Door(this, buildExit.x, buildExit.y, 'door', 'introScene');
-        this.StartRoomDoor.setScale(1.5);
+        if(normanTalk == true){
+            this.StartRoomDoor = new Door(this, buildExit.x, buildExit.y, 'door', 'bates_ExteriorScene');
+            this.StartRoomDoor.setScale(1.5);
+        }
         
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({no_walk:true});
@@ -55,13 +57,14 @@ class Bates_Interior extends Phaser.Scene {
         this.physics.add.collider(this.mainChar, buildingLayer)
         this.physics.add.collider(this.mainChar, baseLayer)
         this.physics.add.collider(this.mainChar, this.norman, () =>{
-            if(talked == false){
-                talked = true;
+            if(normanTalk == false){
+                normanTalk = true;
                 this.scene.bringToTop('normanIntroScene');
                 this.scene.launch('normanIntroScene');
                 this.mainChar.canWalk = false;
-                this.time.delayedCall(15000, () => {
+                this.time.delayedCall(25000, () => {
                     this.mainChar.canWalk = true;
+                    this.gameMusic.pause();
                 }, [], this);
             }
 
