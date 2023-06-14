@@ -26,7 +26,7 @@ class Talking extends Phaser.Scene {
         this.typewriteText('Marion: Oh Sam please can we run away together? I want nothing more than to be with you darling!\nSam: Marion, you know we don\'t have any money\nMarion:What if I could get some?\nSam:Then I would take the keys from that box behind you and run away!\nMarion: Let me do it for you then!');
 
         // end talk after 15
-        this.time.delayedCall(15000, () => {
+        this.time.delayedCall(20000, () => {
             this.scene.stop('talkingScene');
         });
       }
