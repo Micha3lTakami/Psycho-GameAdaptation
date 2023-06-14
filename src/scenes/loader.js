@@ -63,8 +63,8 @@ class Loader extends Phaser.Scene {
         // load image file path
         this.load.path = "./assets/images/"
         // load images
-        this.load.image('menu','bates.png');
         this.load.image('dialogBox', 'dialogbox.png');
+        this.load.image('menuLogo', 'PsychoMenuLogo.png');
         
 
 
@@ -82,6 +82,7 @@ class Loader extends Phaser.Scene {
         this.load.spritesheet('NormanWalk', 'NormanWalk.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 15});
         this.load.spritesheet('NormanIdle', 'NormanIdle.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 5});
         this.load.spritesheet('NormanAttack', 'NormanAttack.png', {frameWidth: 16, frameHeight: 16, startFrame: 0, endFrame: 11});
+        this.load.spritesheet('menu', 'menu.png', {frameWidth: 245, frameHeight: 132, startFrame: 0, endFrame: 57});
         this.load.image('door', 'door.png');
 
         

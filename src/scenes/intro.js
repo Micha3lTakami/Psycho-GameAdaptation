@@ -14,6 +14,8 @@ class Intro extends Phaser.Scene {
 
         // Apply the pipeline to the entire scene
         this.cameras.main.setRenderToTexture(pipeline);*/
+
+        this.cameras.main.fadeIn(1000);
         
         // Create intro music
         this.gameMusic = this.sound.add('introMusic', { loop: true });

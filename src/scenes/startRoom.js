@@ -33,7 +33,9 @@ class StartRoom extends Phaser.Scene {
         
         const baseLayer = map.createLayer('Tile Layer 1', intro_set2, 0, 0);
         const buildingLayer = map.createLayer('decoration', intro_set2, 0, 0);
-        const carLayer = map.createLayer('keys', intro_set2, 0, 0);
+        const keyLayer = map.createLayer('keys', intro_set2, 0, 0);
+        const samLayer = map.createLayer('sam', intro_set2,0,0);
+
 
         const marionSpawn = map.findObject('spawn', obj => obj.name === 'marion_spawn');
         const buildExit = map.findObject('spawn', obj => obj.name === 'door');
@@ -46,13 +48,22 @@ class StartRoom extends Phaser.Scene {
         
         // enable collision based on the property created in Tiled
         buildingLayer.setCollisionByProperty({no_walk:true});
-        carLayer.setCollisionByProperty({no_walk:true});
+        keyLayer.setCollisionByProperty({no_walk:true});
         baseLayer.setCollisionByProperty({no_walk:true});
+        samLayer.setCollisionByProperty({no_walk:true});
 
   
         this.physics.add.collider(this.mainChar, buildingLayer)
-        this.physics.add.collider(this.mainChar, carLayer)
+        this.physics.add.collider(this.mainChar, keyLayer)
         this.physics.add.collider(this.mainChar, baseLayer)
+        this.physics.add.collider(this.mainChar, samLayer, () =>{
+            this.scene.bringToTop('talkingScene');
+            this.scene.launch('talkingScene');
+            this.mainChar.canWalk = false;
+            this.time.delayedCall(5000, () => {
+                this.mainChar.canWalk = true;
+            }, [], this);
+        })
 
         // cameras
         this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels)

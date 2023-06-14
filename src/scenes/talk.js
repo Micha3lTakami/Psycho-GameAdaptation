@@ -12,21 +12,21 @@ class Talking extends Phaser.Scene {
       
         // Create the text with desired style
         const textStyle = {
-          fontSize: '24px',
+          fontSize: '15px',
           fontFamily: 'Optima',
           fontWeight: 'bold',
           color: '#e6dfcc', // Kanye red color
           wordWrap: {
-            width: 400, // Set the desired width for word wrapping
+            width: 300, // Set the desired width for word wrapping
           },
         };
       
-        this.label = this.add.text(100, 100, '', textStyle);
+        this.label = this.add.text(w*.2, h*.2, '', textStyle);
       
-        this.typewriteText('Hello,\n World!');
+        this.typewriteText('Marion: Oh Sam please can we run away together? I want nothing more than to be with you darling!\nSam: Marion, you know we don\'t have any money\nMarion:What if I could get some?\nSam:Then I would take the keys from that box behind you and run away!\nMarion: Let me do it for you then!');
 
-                // End the scene after 5 seconds
-        this.time.delayedCall(5000, () => {
+        // end talk after 15
+        this.time.delayedCall(15000, () => {
             this.scene.stop('talkingScene');
         });
       }
