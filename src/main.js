@@ -1,6 +1,7 @@
 // PSYCHO
 // Major aspects of Phaser used: physics systems, cameras, text objects, animation manager, tween manager, and tile maps
-
+// a top-down rpg style adaptation of the first half of Alfred Hitchcock's Psycho with an abridged ending
+// scenes adapted: intro with Sam, Marion steals the money from Mr.Lowery's client, Marion meets norman during the night at the Bates motel
 // enable JS Strict Mode
 'use strict';
 
